@@ -1,0 +1,82 @@
+body {
+	/*    background-color: #F7F7F7;*/
+	font-family: 'Myriad', Helvetica, sans-serif;
+	font-size: 150%;
+	margin: 0;
+}
+
+header {
+	/*    background-color: white;*/
+
+}
+
+#logo {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background: linear-gradient(#87BAE9, #FFF);
+}
+
+#logo img {
+	width: 30%;
+	vertical-align: middle;
+}
+
+ul {
+	line-height: 200%;
+	color: rgb(10, 107, 124);
+}
+li {
+	list-style: none;
+}
+.answer {
+	text-indent: 2%;
+	color: rgb(12, 199, 232);
+}
+
+.swipe-wrap img {
+	width: 100%;
+}
+
+.size1of2 {
+	float: left;
+	width: 50%;
+}
+
+.module div:first-child {
+	text-align: center;
+	font-size: 150%;
+}
+
+.marginTop {
+	margin-top: 5%;
+}
+
+.marginBottom {
+	margin-bottom: 5%;
+}
+
+.autoMargin {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.octicon-check {
+	color: green;
+}
+
+.octicon-x {
+	color: rgb(208,0,0);
+}
+
+table {
+	border-collapse: collapse;
+	color: rgb(103, 103, 161);
+	margin-left: auto; margin-right: auto;
+}
+
+td, th {
+	padding: 2%;
+	margin: 2%;
+	border: 1px solid rgb(141, 189, 234);
+}
