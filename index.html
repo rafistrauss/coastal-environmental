@@ -1,0 +1,135 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Coastal Environmental</title>
+
+		<link rel="stylesheet" href="styles/index.css" />
+		<link rel="stylesheet" href="styles/swipe.css" />
+		<link rel="stylesheet" href="octicons/octicons.css" />
+
+		<script src="scripts/swipe.js" type="text/javascript"></script>
+
+	</head>
+
+	<body>
+
+		<header>
+			<div id="logo"><img src="images/logo.svg" />
+
+				<span>Expert Lead Testing </span>
+			</div>
+		</header>
+
+		<div class="marginBottom marginTop" style="text-align: center; display: none;">
+			<div style="font-size: 200%;">
+				Clean and healthy
+			</div>
+			<div class="autoMargin marginTop" style="width: 60%;">
+				In 1991 the Secretary of HUD characterized Lead poisoning as the "number one environmental threat to the health of children in the United States".
+				<br />
+				<br />
+				Keep your homes lead-free.
+
+			</div>
+		</div>
+
+		<div id="home">
+
+			<div id='slider' class='swipe'>
+				<div class='swipe-wrap'>
+					<div><img src="images/slide1.jpg" />
+					</div>
+					<div><img src="images/slide2.jpg" />
+					</div>
+					<div><img src="images/slide3.jpg" />
+					</div>
+				</div>
+			</div>
+
+			<div class="marginTop marginBottom" style="text-align: center;">
+
+				<div class="marginBottom">
+					What makes us better
+				</div>
+
+				<table>
+					<tr>
+						<th></th>
+						<th>XRF Analysis</th>
+						<th>Paint-Chip Analysis</th>
+					</tr>
+
+					<tr>
+						<td>Results accepted by
+						<br />
+						HUD, NYC DOH and EPA</td>
+						<td><span class="octicon-check mega-octicon"></span></td>
+						<td><span class="octicon-check mega-octicon"></span></td>
+					</tr>
+
+					<tr>
+						<td>Instant Results</td>
+						<td><span class="octicon-check mega-octicon"></span></td>
+						<td><span class="octicon-x mega-octicon"></span></td>
+					</tr>
+
+					<tr>
+						<td>Non-destructive</td>
+						<td><span class="octicon-check mega-octicon"></span></td>
+						<td><span class="octicon-x mega-octicon"></span></td>
+					</tr>
+
+					<tr>
+						<td>Reads through surfaces</td>
+						<td><span class="octicon-check mega-octicon"></span></td>
+						<td><span class="octicon-x mega-octicon"></span></td>
+					</tr>
+
+					<tr>
+						<td>No repairs needed</td>
+						<td><span class="octicon-check mega-octicon"></span></td>
+						<td><span class="octicon-x mega-octicon"></span></td>
+					</tr>
+
+					<tr>
+						<td>Cost Effectiveness</td>
+						<td><span class="octicon-check mega-octicon"></span></td>
+						<td><span class="octicon-x mega-octicon"></span></td>
+					</tr>
+
+				</table>
+
+			</div>
+
+		</div>
+
+		<div id="about">
+
+		</div>
+
+		<script>
+			window.mySwipe = new Swipe(document.getElementById('slider'), {
+				startSlide : 0,
+				speed : 400,
+				auto : 3000,
+				continuous : true,
+				disableScroll : false,
+				stopPropagation : false,
+				callback : function(index, elem) {
+				},
+				transitionEnd : function(index, elem) {
+				}
+			});
+
+			function changeSlide(id) {
+				window.mySwipe.slide(id);
+
+			}
+		</script>
+
+	</body>
+
+</html>
