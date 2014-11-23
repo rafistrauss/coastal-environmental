@@ -22,6 +22,18 @@ header {
 	vertical-align: middle;
 }
 
+#nav {
+	float: left; 
+	margin-top: 4%; 
+	font-size: 50%; 
+	width: 20%; 
+	
+}
+
+#nav span {
+	margin-right: 5%;
+}
+
 ul {
 	line-height: 200%;
 	color: rgb(10, 107, 124);
@@ -79,4 +91,8 @@ td, th {
 	padding: 2%;
 	margin: 2%;
 	border: 1px solid rgb(141, 189, 234);
+}
+
+.clickable {
+	cursor: pointer;
 }

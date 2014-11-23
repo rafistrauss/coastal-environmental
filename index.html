@@ -9,19 +9,35 @@
 		<link rel="stylesheet" href="styles/index.css" />
 		<link rel="stylesheet" href="styles/swipe.css" />
 		<link rel="stylesheet" href="octicons/octicons.css" />
-
+		
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+		
 		<script src="scripts/swipe.js" type="text/javascript"></script>
+		<script src="scripts/index.js" type="text/javascript"></script>
+		
+		<script src="scripts/jscolor/jscolor.js" type="text/javascript"></script>
 
 	</head>
 
 	<body>
 
 		<header>
+			
+			
 			<div id="logo"><img src="images/logo.svg" />
+			<div id="nav">
+				<span class="clickable" onclick="showSection('home')">Home</span>
+				<span class="clickable" onclick="">About</span>
+				<span class="clickable" onclick="">Contact</span>
+			</div>
 
 				<span>Expert Lead Testing </span>
 			</div>
 		</header>
+		
+		<div id="colorPicker">
+			<input class="color" onchange="changeHeader(this.value)" />
+		</div>
 
 		<div class="marginBottom marginTop" style="text-align: center; display: none;">
 			<div style="font-size: 200%;">
