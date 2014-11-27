@@ -3,6 +3,9 @@ body {
 	font-family: 'Myriad', Helvetica, sans-serif;
 	font-size: 150%;
 	margin: 0;
+
+    overflow-y:scroll;
+
 }
 
 header {
@@ -30,9 +33,13 @@ header {
 	
 }
 
-#nav span {
+#nav span, #nav a {
 	margin-right: 5%;
+	text-decoration: none;
+	color: black;
 }
+
+
 
 ul {
 	line-height: 200%;
@@ -95,4 +102,39 @@ td, th {
 
 .clickable {
 	cursor: pointer;
+}
+
+.switchable {
+	/*display: none;*/
+}
+#about {
+	/*display: block;*/
+}
+
+#about {
+	text-indent: 5%;
+	
+}
+
+#about h2 {
+	text-align: center;
+	margin: 0;
+	padding: 1.5%;
+	cursor: pointer;
+}
+
+#about h4 {
+	font-style: italic;
+	font-weight: normal;
+	text-indent: 0;
+	
+}
+
+.textDisplay {
+	display: none;
+	position: relative;
+}
+
+form {
+	text-align: center;
 }

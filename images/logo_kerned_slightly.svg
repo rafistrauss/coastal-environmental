@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448"
+   height="252.36"
+   id="svg3087"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="logo.svg">
+  <defs
+     id="defs3089" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="321.71633"
+     inkscape:cy="66.444646"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="706"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3092">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-800.00218)">
+    <text
+       style="font-size:15px"
+       y="986.51874"
+       x="145.51492"
+       id="text32">
+      <tspan
+         style="font-size:178.71975708px;font-variant:normal;font-weight:500;font-stretch:normal;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Helvetica 65 Medium;-inkscape-font-specification:HelveticaNeue-Medium"
+         x="145.51492"
+         y="986.51874"
+         id="tspan34">C</tspan>
+    </text>
+    <text
+       style="font-size:15px"
+       y="958.55536"
+       x="178.00941"
+       id="text36">
+      <tspan
+         style="font-size:138.10162354px;font-variant:normal;font-weight:100;font-stretch:normal;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Helvetica 25 UltraLight;-inkscape-font-specification:HelveticaNeue-UltraLight"
+         x="178.00941"
+         y="958.55536"
+         id="tspan38">e</tspan>
+    </text>
+    <text
+       style="font-size:15px"
+       y="887.51978"
+       x="272.63791"
+       id="text40">
+      <tspan
+         style="font-size:60.92712402px;font-variant:normal;font-weight:300;font-stretch:normal;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Helvetica 45 Light;-inkscape-font-specification:HelveticaNeue-Light"
+         x="272.63791 315.53061 349.4061 381.02728 410.33322 428.36768 459.9888 471.26035"
+         y="887.51978"
+         sodipodi:role="line"
+         id="tspan42">Coastal</tspan>
+    </text>
+    <text
+       style="font-size:15px"
+       y="941.9541"
+       x="276.69965"
+       id="text44">
+      <tspan
+         style="font-size:56.8653717px;font-variant:normal;font-weight:100;font-stretch:normal;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Helvetica 25 UltraLight;-inkscape-font-specification:HelveticaNeue-UltraLight"
+         sodipodi:role="line"
+         id="tspan46"
+         y="941.9541"
+         x="276.69965 307.23636 335.66904 358.81326 366.20575 380.9339 410.44702 438.8797 483.12097 511.55365 539.98633 553.69086 581.04315"
+         dy="0"
+         dx="0 3.9999986 4.4599991 7.25 10.189997 13.090002 12.849998 12.65 13.819986 14.789984 13.47 15.229989 16.879999">Environmental</tspan>
+    </text>
+    <text
+       style="font-size:15px"
+       y="997.09314"
+       x="272.63791"
+       id="text48">
+      <tspan
+         style="font-size:60.92712402px;font-variant:normal;font-weight:300;font-stretch:normal;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Helvetica 45 Light;-inkscape-font-specification:HelveticaNeue-Light"
+         x="272.63791 315.53061 349.4061 368.59814"
+         y="997.09314"
+         sodipodi:role="line"
+         id="tspan50">Corp</tspan>
+    </text>
+  </g>
+</svg>

@@ -1,3 +1,11 @@
+$(document).ready(function() {
+	$('#about h2').on('click', function(el) {
+		// console.log($(this).parent().children().find('p'));
+		
+		console.log($(el));
+	});
+});
+
 
 function changeHeader(color) {
 	color = '#' + color;
@@ -9,20 +17,33 @@ function changeHeader(color) {
 	);
 }
 
+function changeHeaderSolid(color) {
+	color = '#' + color;
+	
+	$('#logo').css(
+		{
+			background: color
+		}
+	);
+}
+
+
+
 
 function showSection(id) {
 	
+	id = '#' + id;
+	
+	
 	if ($(id).is(":visible")) {
-
+		
 	} else {
 		$('.section.selected').removeClass('selected');
 		var button = id.id + 'Button';
 
-		$(personalBox).fadeOut(500);
-		$(measureBox).fadeOut(500);
-		$(orderBox).fadeOut(500);
+		$('.switchable').fadeOut(500);
 		$(id).delay(500).fadeIn(500);
-		addSelected(button);
+		// addSelected(button);
 
 	}
 
