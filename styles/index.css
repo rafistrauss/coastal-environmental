@@ -5,6 +5,8 @@ body {
 	margin: 0;
 
     overflow-y:scroll;
+    overflow-x:hidden;
+    width: 100%;
 
 }
 
@@ -75,6 +77,14 @@ li {
 	margin-bottom: 5%;
 }
 
+.halfMarginBottom {
+	margin-bottom: 2.5%;
+}
+
+.extraMarginBottom {
+	margin-bottom: 10%;
+}
+
 .autoMargin {
 	margin-left: auto;
 	margin-right: auto;
@@ -137,4 +147,21 @@ td, th {
 
 form {
 	text-align: center;
+}
+
+.slides {
+	width: 100%;
+}
+
+.halfWidth {
+	width: 50%;
+}
+
+paper-ripple {
+	color: #C7DDF2;
+}
+
+paper-button {
+	background-color: #87BAE9;
+	text-transform: none;
 }
