@@ -14,7 +14,7 @@
    id="svg3087"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="logo.svg">
+   sodipodi:docname="logo_kerned_slightly.svg">
   <defs
      id="defs3089" />
   <sodipodi:namedview
@@ -25,8 +25,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="321.71633"
-     inkscape:cy="66.444646"
+     inkscape:cx="360.64846"
+     inkscape:cy="125.30072"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -81,10 +81,10 @@
        id="text40">
       <tspan
          style="font-size:60.92712402px;font-variant:normal;font-weight:300;font-stretch:normal;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Helvetica 45 Light;-inkscape-font-specification:HelveticaNeue-Light"
-         x="272.63791 315.53061 349.4061 381.02728 410.33322 428.36768 459.9888 471.26035"
-         y="887.51978"
+         x="272.63791"
          sodipodi:role="line"
-         id="tspan42">Coastal</tspan>
+         id="tspan42"
+         y="887.51978">Coastal</tspan>
     </text>
     <text
        style="font-size:15px"
@@ -95,10 +95,8 @@
          style="font-size:56.8653717px;font-variant:normal;font-weight:100;font-stretch:normal;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Helvetica 25 UltraLight;-inkscape-font-specification:HelveticaNeue-UltraLight"
          sodipodi:role="line"
          id="tspan46"
-         y="941.9541"
-         x="276.69965 307.23636 335.66904 358.81326 366.20575 380.9339 410.44702 438.8797 483.12097 511.55365 539.98633 553.69086 581.04315"
-         dy="0"
-         dx="0 3.9999986 4.4599991 7.25 10.189997 13.090002 12.849998 12.65 13.819986 14.789984 13.47 15.229989 16.879999">Environmental</tspan>
+         x="276.69965"
+         y="941.9541">Environmental</tspan>
     </text>
     <text
        style="font-size:15px"
@@ -107,10 +105,10 @@
        id="text48">
       <tspan
          style="font-size:60.92712402px;font-variant:normal;font-weight:300;font-stretch:normal;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Helvetica 45 Light;-inkscape-font-specification:HelveticaNeue-Light"
-         x="272.63791 315.53061 349.4061 368.59814"
-         y="997.09314"
          sodipodi:role="line"
-         id="tspan50">Corp</tspan>
+         id="tspan50"
+         x="272.63791"
+         y="997.09314">Corp</tspan>
     </text>
   </g>
 </svg>
