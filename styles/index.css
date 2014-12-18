@@ -1,167 +1,164 @@
+html {
+    background-color: #3d4549;
+}
 body {
-	/*    background-color: #F7F7F7;*/
-	font-family: 'Myriad', Helvetica, sans-serif;
-	font-size: 150%;
-	margin: 0;
-
-    overflow-y:scroll;
-    overflow-x:hidden;
-    width: 100%;
-
+    /*    background-color: #F7F7F7;*/
+    font-family: 'Myriad', Helvetica, sans-serif;
+    font-size: 150%;
+    margin: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
 }
-
 header {
-	/*    background-color: white;*/
-
+    /*    background-color: white;*/
 }
-
-#logo {
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	background: linear-gradient(#87BAE9, #FFF);
+#main {} #logo {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
-
 #logo img {
-	width: 30%;
-	vertical-align: middle;
+    width: 30%;
+    vertical-align: middle;
 }
-
-#nav {
-	float: left; 
-	margin-top: 4%; 
-	font-size: 50%; 
-	width: 20%; 
-	
+#logo span {
+    font-size: 50%;
 }
-
-#nav span, #nav a {
-	margin-right: 5%;
-	text-decoration: none;
-	color: black;
-}
-
-
-
 ul {
-	line-height: 200%;
-	color: rgb(10, 107, 124);
+    color: white;
+    width: 100%;
+    background-color: #3D4549;
+    float: left;
+    margin: 0;
 }
 li {
-	list-style: none;
+    list-style: none;
+    float: left;
+    margin-left: 5%;
+    cursor: pointer;
+}
+li:hover {
+    color: #12abba;
 }
 .answer {
-	text-indent: 2%;
-	color: rgb(12, 199, 232);
+    text-indent: 2%;
+    color: rgb(12, 199, 232);
 }
-
 .swipe-wrap img {
-	width: 100%;
+    width: 100%;
 }
-
 .size1of2 {
-	float: left;
-	width: 50%;
+    float: left;
+    width: 50%;
 }
-
 .module div:first-child {
-	text-align: center;
-	font-size: 150%;
+    text-align: center;
+    font-size: 150%;
 }
-
 .marginTop {
-	margin-top: 5%;
+    margin-top: 5%;
 }
-
 .marginBottom {
-	margin-bottom: 5%;
+    margin-bottom: 5%;
 }
-
 .halfMarginBottom {
-	margin-bottom: 2.5%;
+    margin-bottom: 2.5%;
 }
-
 .extraMarginBottom {
-	margin-bottom: 10%;
+    margin-bottom: 10%;
 }
-
 .autoMargin {
-	margin-left: auto;
-	margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
-
 .octicon-check {
-	color: green;
+    color: green;
 }
-
 .octicon-x {
-	color: rgb(208,0,0);
+    color: rgb(208, 0, 0);
 }
-
 table {
-	border-collapse: collapse;
-	color: rgb(103, 103, 161);
-	margin-left: auto; margin-right: auto;
+    border-collapse: collapse;
+    color: rgb(64, 64, 94);
+    margin-left: auto;
+    margin-right: auto;
 }
-
-td, th {
-	padding: 2%;
-	margin: 2%;
-	border: 1px solid rgb(141, 189, 234);
+td,
+th {
+    padding: 2%;
+    margin: 2%;
+    border: 1px solid rgb(108, 125, 142);
 }
-
 .clickable {
-	cursor: pointer;
+    cursor: pointer;
 }
-
 .switchable {
-	/*display: none;*/
+    /*display: none;*/
 }
 #about {
-	/*display: block;*/
+    /*display: block;*/
 }
-
 #about {
-	text-indent: 5%;
-	
+    text-indent: 5%;
 }
-
 #about h2 {
-	text-align: center;
-	margin: 0;
-	padding: 1.5%;
-	cursor: pointer;
+    text-align: center;
+    margin: 0;
+    padding: 1.5%;
+    cursor: pointer;
 }
-
 #about h4 {
-	font-style: italic;
-	font-weight: normal;
-	text-indent: 0;
-	
+    font-style: italic;
+    font-weight: normal;
+    text-indent: 0;
 }
-
 .textDisplay {
-	display: none;
-	position: relative;
+    display: none;
+    position: relative;
 }
-
 form {
-	text-align: center;
+    text-align: center;
 }
-
 .slides {
-	width: 100%;
+    width: 100%;
 }
-
 .halfWidth {
-	width: 50%;
+    width: 50%;
 }
-
 paper-ripple {
-	color: #C7DDF2;
+    color: #C7DDF2;
+}
+paper-button {
+    background-color: #12abba;
+    text-transform: none;
+    margin-bottom: 1%;
+}
+.parallax {
+    height: 500px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
-paper-button {
-	background-color: #87BAE9;
-	text-transform: none;
+.parallax-nyc {
+    background-image: url('../images/night-city.jpg');
+}
+
+/**
+ * 	Because IE is a steaming pile of garbage that chokes on parallax and stutters like it's having a 
+ * 	stroke, we create a class to disable parallax on that pathetic excuse for a browser. 
+ */
+
+.ieStinks {
+/*	background-attachment: scroll;*/
+    display: none;
+}
+
+.ieBabyFeeding {
+    display: none;
 }

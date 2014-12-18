@@ -1,9 +1,10 @@
 $(document).ready(function() {
-	$('#about h2').on('click', function(el) {
-		// console.log($(this).parent().children().find('p'));
-		
-		console.log($(el));
-	});
+	//Because IE is a steaming pile of garbage that chokes on parallax and stutters like it's having a
+	//stroke, we apply a class to disable parallax on that pathetic excuse for a browser.
+	if (Object.hasOwnProperty.call(window, "ActiveXObject") && !window.ActiveXObject) {
+		$('.parallax').addClass('ieStinks');
+        $('.ieBabyFeeding').show();
+	}
 });
 
 
@@ -47,4 +48,22 @@ function showSection(id) {
 
 	}
 
+}
+
+function goToByScroll(id){
+      
+//    alert(id);
+    //console.log(id);
+    var el = '#' + id;
+    console.log(el);
+    $(el).ScrollTo({
+        duration: 1000,
+        easeing: 'easeIn'
+        
+    });
+    
+      // Scroll
+//    $('html,body').animate({
+//        scrollTop: $("#"+id).offset().top},
+//        'slow');
 }
