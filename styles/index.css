@@ -14,9 +14,10 @@ body {
     background-color: white;
 }
 header {
-    /*    background-color: white;*/
+    background-color: white;
+    
 }
-#main {} #logo {
+#logo {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -28,20 +29,20 @@ header {
 #logo span {
     font-size: 50%;
 }
-ul {
+.nav {
     color: white;
     width: 100%;
     background-color: #3D4549;
     float: left;
     margin: 0;
 }
-li {
+.nav li {
     list-style: none;
     float: left;
     margin-left: 5%;
     cursor: pointer;
 }
-li:hover {
+.nav li:hover {
     color: #12abba;
 }
 .answer {
@@ -104,12 +105,14 @@ th {
 }
 #about {
     text-indent: 5%;
+    font-size: 90%;
 }
 #about h2 {
     text-align: center;
     margin: 0;
     padding: 1.5%;
     cursor: pointer;
+    font-size: 90%;
 }
 #about h4 {
     font-style: italic;
@@ -133,7 +136,7 @@ paper-ripple {
     color: #C7DDF2;
 }
 paper-button {
-    background-color: #12abba;
+    background-color: #E5BA2D;
     text-transform: none;
     margin-bottom: 1%;
 }
@@ -147,6 +150,24 @@ paper-button {
 
 .parallax-nyc {
     background-image: url('../images/night-city.jpg');
+}
+
+.spacer {
+    color: #E5BA2D;
+    background: #3d4549;
+    height: 100px;
+    text-align: center;
+    padding-top: 100px;
+    opacity: .7;
+    font-size: 120%;
+}
+
+#contact {
+    padding: 5% 0;
+}
+
+#contactForm {
+    padding: 5% 0;
 }
 
 /**

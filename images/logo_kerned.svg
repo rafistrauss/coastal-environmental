@@ -14,7 +14,10 @@
    id="svg3087"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="logo_kerned_slightly.svg">
+   sodipodi:docname="logo_kerned.svg"
+   inkscape:export-filename="C:\xampp\htdocs\MySites\coastal environmental\images\logo_kerned.png"
+   inkscape:export-xdpi="96.760002"
+   inkscape:export-ydpi="96.760002">
   <defs
      id="defs3089" />
   <sodipodi:namedview
@@ -31,10 +34,10 @@
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1366"
-     inkscape:window-height="706"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-height="705"
+     inkscape:window-x="-32000"
+     inkscape:window-y="-32000"
+     inkscape:window-maximized="0" />
   <metadata
      id="metadata3092">
     <rdf:RDF>
@@ -66,11 +69,11 @@
     <text
        style="font-size:15px"
        y="958.55536"
-       x="178.00941"
+       x="176.00941"
        id="text36">
       <tspan
          style="font-size:138.10162354px;font-variant:normal;font-weight:100;font-stretch:normal;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Helvetica 25 UltraLight;-inkscape-font-specification:HelveticaNeue-UltraLight"
-         x="178.00941"
+         x="176.00941"
          y="958.55536"
          id="tspan38">e</tspan>
     </text>
