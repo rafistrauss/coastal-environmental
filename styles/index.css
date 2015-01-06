@@ -1,185 +1,136 @@
-html {
-    background-color: #3d4549;
-}
+html,
 body {
-    /*    background-color: #F7F7F7;*/
-    font-family: 'Myriad', Helvetica, sans-serif;
-    font-size: 150%;
     margin: 0;
-    overflow-y: scroll;
-    overflow-x: hidden;
+    padding: 0;
+    min-width: 980px;
+}
+html {
+    background-color: rgb(242, 242, 242);
+    font-family: 'Droid Sans', sans-serif;
+}
+header {
+    background-color: rgba(0, 185, 232, 1);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.7);
+    border-top: 0px solid rgba(0, 185, 232, 1);
+    border-bottom: 0px solid rgba(0, 185, 232, 1);
+    height: 204px;
+}
+header img {
+    position: relative;
+    top: 40px;
+    width: 350px;
+    left: 55px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+#innerHeader {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    background-color: white;
 }
-header {
-    background-color: white;
+.button {
+        padding: 1% 2%;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+    background: rgb(246, 246, 246);
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    cursor: pointer;
+    outline: none;
+}
+.button:hover {
+    background: rgb(206, 206, 206);
+}
+
+.button:active {
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.centerBox {
+    margin: 0 auto;
+    width: 75%;
+}
+
+#hpBox, #navBox {
+    position: relative;
+    top: -50px;
+}
+
+#hpBox {
+    border-radius: 0 0 5px 5px;
+    overflow: hidden;
     
 }
-#logo {
-    margin-left: auto;
-    margin-right: auto;
+#navBox {
+    min-height: 75px;
+    background: white;
     text-align: center;
+    border-radius: 5px 5px 0 0;
 }
-#logo img {
-    width: 30%;
-    vertical-align: middle;
-}
-#logo span {
-    font-size: 50%;
-}
-.nav {
-    color: white;
-    width: 100%;
-    background-color: #3D4549;
+#navBox a {
+    width: 33.33%;
     float: left;
-    margin: 0;
-}
-.nav li {
-    list-style: none;
-    float: left;
-    margin-left: 5%;
-    cursor: pointer;
-}
-.nav li:hover {
-    color: #12abba;
-}
-.answer {
-    text-indent: 2%;
-    color: rgb(12, 199, 232);
-}
-.swipe-wrap img {
-    width: 100%;
-}
-.size1of2 {
-    float: left;
-    width: 50%;
-}
-.module div:first-child {
-    text-align: center;
-    font-size: 150%;
-}
-.marginTop {
-    margin-top: 5%;
-}
-.marginBottom {
-    margin-bottom: 5%;
-}
-.halfMarginBottom {
-    margin-bottom: 2.5%;
-}
-.extraMarginBottom {
-    margin-bottom: 10%;
-}
-.autoMargin {
-    margin-left: auto;
-    margin-right: auto;
-}
-.octicon-check {
-    color: green;
-}
-.octicon-x {
-    color: rgb(208, 0, 0);
-}
-table {
-    border-collapse: collapse;
-    color: rgb(64, 64, 94);
-    margin-left: auto;
-    margin-right: auto;
-}
-td,
-th {
-    padding: 2%;
-    margin: 2%;
-    border: 1px solid rgb(108, 125, 142);
-}
-.clickable {
-    cursor: pointer;
-}
-.switchable {
-    /*display: none;*/
-}
-#about {
-    /*display: block;*/
-}
-#about {
-    text-indent: 5%;
-    font-size: 90%;
-}
-#about h2 {
-    text-align: center;
-    margin: 0;
-    padding: 1.5%;
-    cursor: pointer;
-    font-size: 90%;
-}
-#about h4 {
-    font-style: italic;
-    font-weight: normal;
-    text-indent: 0;
-}
-.textDisplay {
-    display: none;
     position: relative;
+    padding: 1.5% 0;
+    background: linear-gradient(white 50%, rgb(246, 246, 246) 50%);
+    display: block;
+    transition: .5s ease-in-out;
+    border-radius: 5px;
 }
-form {
-    text-align: center;
+#navBox a:hover {
+    color: rgba(0, 185, 232, 1);
 }
-.slides {
+#navBox,
+#slideshow {} #slideshow {
+    padding: 2%;
+    background: white;
+}
+#slideshow img {
     width: 100%;
 }
-.halfWidth {
-    width: 50%;
+.unit {
+    float: left;
+    position: relative;
+    margin-bottom: 5%;
+    
 }
-paper-ripple {
-    color: #C7DDF2;
+.size1of3 {
+    width: 33.33%;
 }
-paper-button {
-    background-color: #E5BA2D;
-    text-transform: none;
-    margin-bottom: 1%;
-}
-.parallax {
-    height: 500px;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+.boxInfo {
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.7);
+    background: linear-gradient(rgb(246, 246, 246) 10%, white 90%);
+    margin: 5%;
+    padding: 1% 5% 25%;
+    min-height: 225px;
 }
 
-.parallax-nyc {
-    background-image: url('../images/night-city.jpg');
+.boxInfo h2 {
+    color: #007B9A;
+    font-weight: 300;
 }
 
-.spacer {
-    color: #E5BA2D;
-    background: #3d4549;
-    height: 100px;
-    text-align: center;
-    padding-top: 100px;
-    opacity: .7;
-    font-size: 120%;
+.boxInfo .button {
+    position: absolute; 
+    bottom: 25px;
+    right: 25px;
 }
 
-#contact {
-    margin: 5% 0;
+.boxInfo ul {
+    font-size: 85%;
+    line-height: 200%;
 }
 
-#contactForm {
-    padding: 5% 0;
-}
-
-/**
- * 	Because IE is a steaming pile of garbage that chokes on parallax and stutters like it's having a 
- * 	stroke, we create a class to disable parallax on that pathetic excuse for a browser. 
- */
-
-.ieStinks {
-/*	background-attachment: scroll;*/
-    display: none;
-}
-
-.ieBabyFeeding {
-    display: none;
+#footer {
+    min-height: 200px;
+    clear: both;
+    margin-top: 5%;
+    background: white;
+    border-top: solid 5px rgb(0,123,154);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.7);
 }
