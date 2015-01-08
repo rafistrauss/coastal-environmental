@@ -1,10 +1,5 @@
 $(document).ready(function() {
-	//Because IE is a steaming pile of garbage that chokes on parallax and stutters like it's having a
-	//stroke, we apply a class to disable parallax on that pathetic excuse for a browser.
-	if (Object.hasOwnProperty.call(window, "ActiveXObject") && !window.ActiveXObject) {
-		$('.parallax').addClass('ieStinks');
-        $('.ieBabyFeeding').show();
-	}
+	
 });
 
 
@@ -39,11 +34,14 @@ function showSection(id) {
 	if ($(id).is(":visible")) {
 		
 	} else {
-		$('.section.selected').removeClass('selected');
+//		$('.section.selected').removeClass('selected');
+//        $('.slideshow div').removeClass('selected');
+        
 		var button = id.id + 'Button';
 
-		$('.switchable').fadeOut(500);
+		$('.slideshow > div').fadeOut(500);
 		$(id).delay(500).fadeIn(500);
+        goToByScroll('slideshow');
 		// addSelected(button);
 
 	}

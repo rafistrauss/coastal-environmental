@@ -86,11 +86,11 @@ a {
     color: rgba(0, 185, 232, 1);
 }
 #navBox,
-#slideshow {} #slideshow {
+.slideshow {} .slideshow {
     padding: 2%;
     background: white;
 }
-#slideshow img {
+.slideshow img {
     width: 100%;
 }
 .unit {
@@ -133,4 +133,48 @@ a {
     background: white;
     border-top: solid 5px rgb(0,123,154);
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.7);
+}
+
+.octicon-check {
+    color: green;
+}
+.octicon-x {
+    color: rgb(208, 0, 0);
+}
+table {
+    border-collapse: collapse;
+    color: rgb(64, 64, 94);
+    margin-left: auto;
+    margin-right: auto;
+    widows: 60%;
+}
+td,
+th {
+    padding: 2%;
+    margin: 2%;
+    border: 1px solid rgb(108, 125, 142);
+    text-align: center;
+}
+
+#about div {
+    margin: 1%;
+    text-indent: 2%;
+}
+
+.slideshow > div {
+    display: none;
+}
+
+#home {
+    display: block;
+}
+
+#services ul {
+    margin: 0 auto;
+    width: 85%;
+    line-height: 200%;
+}
+
+#footer {
+    padding: 0 1%;
 }
