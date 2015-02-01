@@ -4,10 +4,13 @@
 <head>
     <title></title>
 
-    <script src="bower_components/platform/platform.js"></script>
+    <script src="components/platform/platform.js"></script>
 
     <link rel="import" href="components/core-icons/core-icons.html" />
     <link rel="import" href="components/core-icons/communication-icons.html" />
+    <link rel="import" href="components/paper-input/paper-input.html" />
+    <link rel="import" href="components/paper-input/paper-input-decorator.html" />
+    <link rel="import" href="components/paper-button/paper-button.html" />
     <link rel="stylesheet" href="octicons/octicons.css" />
 
     <link rel="stylesheet" href="styles/index.css" />
@@ -31,15 +34,15 @@
             <img src="images/CE_logo.png" />
             <!--            <img src="images/CE_logo_white.png" />-->
             <br />
-            <span id="logoUnder" >
+            <span id="logoUnder">
             Lead Testing and Consulting Division
             </span>
             <br />
             <span class="servicing">Servicing All 5 Boroughs and New Jersey </span>
             <br />
-            <span class="servicing" id="callToday" >Call Today: 718-844-5400</span>
-            
-           
+            <span class="servicing" id="callToday">Call Today: 718-844-5400</span>
+
+
 
         </div>
 
@@ -50,6 +53,8 @@
         <a href="#" onclick="showSection('home')">Home</a>
         <a href="#" onclick="showSection('services')">Services</a>
         <a href="#" onclick="showSection('about')">About</a>
+        <a href="#" onclick="showSection('contact')">Contact</a>
+
 
 
     </div>
@@ -201,6 +206,55 @@
 
 
             </div>
+            <div id="contact" style="position: relative;">
+                <div style="text-align: center">
+
+                    <div id="contactForm">
+
+                        <style>
+                            paper-input-decorator {
+                                width: 40%;
+                                margin: 0 auto;
+                            }
+                            
+                            input[is=core-input] {
+                                
+                                text-align: center;
+                                
+                            }
+                            
+                        </style>
+
+                        <paper-input-decorator label="Name"  error="Please enter your name" class="inputs" >
+                            <input is="core-input" id="nameInput" >
+                        </paper-input-decorator>
+
+                        <paper-input-decorator label="Email Address"  error="Please enter a valid email address" class="inputs"  >
+                            <input is="core-input" id="emailInput" >
+                        </paper-input-decorator>
+
+                        <paper-input-decorator label="Phone Number"  error="Please enter a valid phone number" class="inputs"  >
+                            <input is="core-input" id="phoneInput" >
+                        </paper-input-decorator>
+
+
+                        <paper-button id="submit">
+                            Get In Touch
+                        </paper-button>
+
+                    </div>
+
+                    <div id="contactResponse">
+                        Thanks! We'll get in touch as soon as possible.
+                    </div>
+
+
+
+                    <img id="loading" src="" style="position: absolute; top: -40px; left: 37%; margin: 0; display: none;" />
+
+                </div>
+
+            </div>
 
         </div>
 
@@ -210,8 +264,7 @@
     <div class="centerBox">
         <div class="unit size1of3">
             <div class="boxInfo">
-                <h2>About</h2>
-                Coastal Environmental Corp. is licensed by NYS to utilize X-RAY Fluorescence Equipment for lead testing and reporting. Inspectors are certified by the Environmental Protection Agency after having undergone approved certification courses and testing.
+                <h2>About</h2> Coastal Environmental Corp. is licensed by NYS to utilize X-RAY Fluorescence Equipment for lead testing and reporting. Inspectors are certified by the Environmental Protection Agency after having undergone approved certification courses and testing.
                 <button class="button" onclick="showSection('about')">Read More</button>
             </div>
         </div>
@@ -234,9 +287,8 @@
         </div>
         <div class="unit size1of3">
             <div class="boxInfo">
-                <h2>Contact</h2>
-                Our team is ready and waiting to come service your needs. Call or email us and we'll come out to you as soon as possible.
-                <button class="button">Read More</button>
+                <h2>Contact</h2> Our team is ready and waiting to come service your needs. Call or email us and we'll come out to you as soon as possible.
+                <button class="button" onclick="showSection('contact')">Read More</button>
             </div>
         </div>
     </div>
@@ -256,8 +308,8 @@
         <core-icon icon="mail"></core-icon> <a href="mailto:info@coastalenviro.com">info@coastalenviro.com</a>
 
         <br />
-        <span  id="footerCenter">Licensed and Insured</span>
-        
+        <span id="footerCenter">Licensed and Insured</span>
+
 
     </div>
 

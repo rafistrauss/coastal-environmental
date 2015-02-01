@@ -80,7 +80,7 @@ a {
     border-radius: 5px 5px 0 0;
 }
 #navBox a {
-    width: 33.33%;
+    width: 25%;
     float: left;
     position: relative;
     padding: 1.5% 0;
@@ -165,7 +165,7 @@ a {
 }
 table {
     border-collapse: collapse;
-    color: rgb(64, 64, 94);
+    color: rgb(65, 0, 0);
     margin-left: auto;
     margin-right: auto;
     width: 60%;
@@ -183,13 +183,14 @@ th {
     text-indent: 2%;
 }
 
-.slideshow > div {
+.slideshow > div, #contactResponse {
     display: none;
 }
 
-#home {
+#contact {
     display: block;
 }
+
 
 #services ul {
     margin: 0 auto;
@@ -227,4 +228,13 @@ th {
 
 #callToday {
     color: red;
+}
+
+.autoMargin {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+paper-button {
+    background-color: rgb(246, 246, 246);
 }
