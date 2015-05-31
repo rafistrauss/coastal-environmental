@@ -28,8 +28,8 @@ function submitForm() {
     if (validateInputs(name, email, phone)) {
 
 
-//        $.post('contact.php', {
-          $.post('https://fittedthreads.com/admin/coastal.php', {
+        $.post('contact.php', {
+//          $.post('https://fittedthreads.com/admin/coastal.php', {
         
             name: name,
             email: email,
