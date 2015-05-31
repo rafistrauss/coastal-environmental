@@ -10,6 +10,8 @@
     <link rel="import" href="components/core-icons/communication-icons.html" />
     <link rel="import" href="components/paper-input/paper-input.html" />
     <link rel="import" href="components/paper-input/paper-input-decorator.html" />
+    <link rel="import" href="components/paper-input/paper-autogrow-textarea.html"
+    
     <link rel="import" href="components/paper-button/paper-button.html" />
     <link rel="stylesheet" href="octicons/octicons.css" />
 
@@ -217,10 +219,14 @@
                                 margin: 0 auto;
                             }
                             
-                            input[is=core-input] {
+                            input[is=core-input], textarea {
                                 
                                 text-align: center;
                                 
+                            }
+                            
+                            textarea {
+                                background-color: transparent;
                             }
                             
                         </style>
@@ -236,7 +242,10 @@
                         <paper-input-decorator label="Phone Number"  error="Please enter a valid phone number" class="inputs"  >
                             <input is="core-input" id="phoneInput" >
                         </paper-input-decorator>
-
+                        
+                        <paper-input-decorator label="Comments" class="inputs"  >
+                            <input is="core-input" id="commentInput" >
+                        </paper-input-decorator>
 
                         <paper-button id="submit">
                             Get In Touch
