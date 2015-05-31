@@ -17,6 +17,13 @@
     <b>Comments:</b> $comments <br />
     ";
     
-    mail('rafikis75@gmail.com', $subject, $message, $headers);
+    $success = mail('rafikis75@gmail.com', $subject, $message, $headers);
+    if($success) {
+        file_put_contents('log.log', 'Success', FILE_APPEND);
+    }
+    
+else {
+    file_put_contents('log.log', 'Failed - ' . $success, FILE_APPEND);
+}
 
 ?>
