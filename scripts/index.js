@@ -3,6 +3,8 @@ var errorCount = 0;
 
 
 $(document).ready(function () {
+    
+    $('#phoneInput').mask('?999-999-9999');
     $('#submit').click(function () {
         submitForm();
     })
@@ -16,7 +18,9 @@ function submitForm() {
     
     var name = $('#nameInput').val(),
         email = $('#emailInput').val(),
-        phone = $('#phoneInput').val();
+        phone = $('#phoneInput').val(),
+        comments = $('#commentsInput').val();
+    
     var height = $('#contactForm').height();
 
 
@@ -29,7 +33,8 @@ function submitForm() {
         
             name: name,
             email: email,
-            phone: phone
+            phone: phone,
+            comments: comments
         }, function (data) {
             console.log(data);
             setTimeout(function () {
@@ -81,7 +86,7 @@ function validateEmail(email) {
 }
 
 function validatePhone(phone) {
-    if (phone.match(/^\d{10}$/)) {
+    if (phone.match(/^\(?\d{3}\)?[- ]?\d{3}[- ]?\d{4}$/)) {
         return true;
     }
     $('#phoneInput').parent().attr('isInvalid', true);

@@ -2,6 +2,7 @@
     $name = $_POST['name'];
     $email = $_POST['email'];
     $phone = $_POST['phone'];
+    $comments = $_POST['comments'];
 
     $headers = "From: new-contact@coastal-enviro.com" . "\r\n" . "Reply-To: $email" . "\r\n" . 'X-Mailer: PHP/' . phpversion();
     $headers .= 'MIME-Version: 1.0' . "\r\n";
@@ -12,7 +13,9 @@
     $message = "$subject <br /><br />
     <b>Name:</b> $name <br />
     <b>Email:</b> $email <br />
-    <b>Phone:</b> $phone <br />";
+    <b>Phone:</b> $phone <br />
+    <b>Comments:</b> $comments <br />
+    ";
     
     mail('rafikis75@gmail.com', $subject, $message, $headers);
 
