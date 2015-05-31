@@ -1,0 +1,44 @@
+<!Doctype html>
+<html>
+
+<head>
+    <title></title>
+
+    <script src="scripts/jquery-2.0.3.min.js"></script>
+    
+    <script>
+        
+        function update() {
+            var temp = $('#changer').val();
+            
+            var kelvin = (temp - 32) * 5 /9 + 273.15;
+            
+            var R = 8.3144621;
+            var n = 24506;
+            
+            
+            var volume = 4237;
+            var pressure = (kelvin * R * n) / volume;
+            $('#tempDisplay').text(temp);
+            $('#pressureDisplay').text(pressure);
+            
+            
+            
+        }
+        
+    </script>
+
+</head>
+
+<body>
+
+    Temperature: <span id="tempDisplay"></span>&deg;
+    <br />
+    Pressure: <span id="pressureDisplay"></span> PSI
+    
+    <input type="range" step="5" min="15" max="85" id="changer" onchange="update()" />
+
+
+</body>
+
+</html>

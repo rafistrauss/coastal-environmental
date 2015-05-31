@@ -1,0 +1,143 @@
+body {
+	/*    background-color: #F7F7F7;*/
+	font-family: 'Myriad', Helvetica, sans-serif;
+	font-size: 150%;
+	margin: 0;
+	overflow-y: scroll;
+	background: rgb(3, 8, 44);
+	color: white;
+	
+	background: #1a1a1a;
+	
+}
+
+#logo {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background: linear-gradient(#EFFFE6, #1a1a1a);
+}
+
+#logo img {
+	width: 30%;
+	vertical-align: middle;
+}
+
+#nav {
+	float: left;
+	margin-top: 4%;
+	font-size: 50%;
+	width: 20%;
+}
+
+#nav span, #nav a {
+	margin-right: 5%;
+	text-decoration: none;
+	color: white;
+}
+
+ul {
+	line-height: 200%;
+	color: rgb(10, 107, 124);
+}
+li {
+	list-style: none;
+}
+.answer {
+	text-indent: 2%;
+	color: rgb(12, 199, 232);
+}
+
+.swipe-wrap img {
+	width: 100%;
+}
+
+.size1of2 {
+	float: left;
+	width: 50%;
+}
+
+.module div:first-child {
+	text-align: center;
+	font-size: 150%;
+}
+
+.marginTop {
+	margin-top: 5%;
+}
+
+.marginBottom {
+	margin-bottom: 5%;
+}
+
+.autoMargin {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.octicon-check {
+	color: rgb(5, 244, 5);
+}
+
+.octicon-x {
+	color: rgb(208,0,0);
+}
+
+table {
+	border-collapse: collapse;
+	color: rgb(215, 201, 171);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+td, th {
+	padding: 2%;
+	margin: 2%;
+	border: 1px solid rgb(24, 100, 171);
+}
+
+.clickable {
+	cursor: pointer;
+}
+
+.switchable {
+	/*display: none;*/
+}
+#about {
+	/*display: block;*/
+}
+
+#about {
+	text-indent: 5%;
+}
+
+#about h2 {
+	text-align: center;
+	margin: 0;
+	padding: 1.5%;
+	cursor: pointer;
+}
+
+#about h4 {
+	font-style: italic;
+	font-weight: normal;
+	text-indent: 0;
+}
+
+.textDisplay {
+	display: none;
+	position: relative;
+}
+
+form {
+	text-align: center;
+}
+
+#logoImg path {
+	fill: red;
+}
+
+#main {
+	background: linear-gradient(#1a1a1a, #4E4D4D, #1a1a1a);
+}
+

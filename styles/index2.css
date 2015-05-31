@@ -1,0 +1,99 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-color: rgb(242, 242, 242);
+    font-family: 'Droid Sans', sans-serif;
+}
+header {
+    background-color: rgba(0, 185, 232, 1);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.7);
+    border-top: 0px solid rgba(0, 185, 232, 1);
+    border-bottom: 0px solid rgba(0, 185, 232, 1);
+    height: 204px;
+}
+header img {
+    position: relative;
+    top: 40px;
+    width: 350px;
+    left: 55px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+#innerHeader {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button {
+    /*    padding: 1% 2%;*/
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+    background: linear-gradient(white 50%, rgb(246, 246, 246) 50%);
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    cursor: pointer;
+}
+.button:hover {
+    background: linear-gradient(#37c8ed 50%, #00AFDC 50%);
+}
+.centerBox {
+    margin: 0 auto;
+    width: 75%;
+}
+#hpBox {
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    top: -45px;
+}
+#navBox {
+    min-height: 75px;
+    background: white;
+    text-align: center;
+}
+#navBox a {
+    width: 33.33%;
+    float: left;
+    position: relative;
+    padding: 1.5% 0;
+    background: linear-gradient(white 50%, rgb(246, 246, 246) 50%);
+    display: block;
+    transition: .5s ease-in-out;
+}
+#navBox a:hover {
+    color: rgba(0, 185, 232, 1);
+}
+#navBox,
+#slideshow {} #slideshow {
+    padding: 2%;
+    background: white;
+}
+#slideshow img {
+    width: 100%;
+}
+.unit {
+    float: left;
+    position: relative;
+}
+.size1of3 {
+    width: 33.33%;
+}
+.boxInfo {
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.7);
+    background: linear-gradient(rgb(246, 246, 246) 10%, white 90%);
+    margin: 5%;
+    padding: 1% 5% 25%;
+}
+
+.boxInfo h2 {
+    color: #007B9A;
+    font-weight: 300;
+}
