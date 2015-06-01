@@ -1,4 +1,5 @@
 <?php 
+    error_reporting(1);
     $name = $_POST['name'];
     $email = $_POST['email'];
     $phone = $_POST['phone'];
@@ -23,7 +24,9 @@
     }
     
 else {
-    file_put_contents('log.log', 'Failed - ' . $success, FILE_APPEND);
+    $dateTime = date('M d, Y');
+    file_put_contents('log.log', "$dateTime: Failed - " . var_dump($success), FILE_APPEND);
+    
 }
 
 ?>
