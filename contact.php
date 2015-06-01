@@ -28,7 +28,7 @@ else {
 
     $params = "Name: $name , email: $email , phone: $phone , comments: $comments ";
 
-    file_put_contents('log.log', "$dateTime: Failed - " . var_dump($success) . " " . var_dump($params), FILE_APPEND);
+    file_put_contents('log.log', "$dateTime: Failed - " . print_r(error_get_last()), FILE_APPEND);
     
 }
 
