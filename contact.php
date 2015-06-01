@@ -1,5 +1,6 @@
 <?php 
     error_reporting(1);
+    date_default_timezone_get('America/New_York');
     $name = $_POST['name'];
     $email = $_POST['email'];
     $phone = $_POST['phone'];
