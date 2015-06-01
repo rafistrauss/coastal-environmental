@@ -25,7 +25,10 @@
     
 else {
     $dateTime = date('M d, Y');
-    file_put_contents('log.log', "$dateTime: Failed - " . var_dump($success), FILE_APPEND);
+
+    $params = "Name: $name , email: $email , phone: $phone , comments: $comments ";
+
+    file_put_contents('log.log', "$dateTime: Failed - " . var_dump($success) . " " . var_dump($params), FILE_APPEND);
     
 }
 
