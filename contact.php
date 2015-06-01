@@ -1,6 +1,6 @@
 <?php 
     error_reporting(1);
-    date_default_timezone_get('America/New_York');
+
     $name = $_POST['name'];
     $email = $_POST['email'];
     $phone = $_POST['phone'];
@@ -25,11 +25,12 @@
     }
     
 else {
+    $mailError = error_get_last();
     $dateTime = date('M d, Y');
 
     $params = "Name: $name , email: $email , phone: $phone , comments: $comments ";
 
-    file_put_contents('log.log', "$dateTime: Failed - " . print_r(error_get_last()), FILE_APPEND);
+    file_put_contents('log.log', "$dateTime: Failed - " . print_r($mailError), FILE_APPEND);
     
 }
 
